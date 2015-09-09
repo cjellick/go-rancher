@@ -15,7 +15,13 @@ type ServiceEvent struct {
 
 	Description string `json:"description,omitempty" yaml:"description,omitempty"`
 
+	EventJson interface{} `json:"eventJson,omitempty" yaml:"event_json,omitempty"`
+
+	ExternalId string `json:"externalId,omitempty" yaml:"external_id,omitempty"`
+
 	ExternalTimestamp int64 `json:"externalTimestamp,omitempty" yaml:"external_timestamp,omitempty"`
+
+	ExternalType string `json:"externalType,omitempty" yaml:"external_type,omitempty"`
 
 	HealthcheckUuid string `json:"healthcheckUuid,omitempty" yaml:"healthcheck_uuid,omitempty"`
 
@@ -25,6 +31,8 @@ type ServiceEvent struct {
 
 	Kind string `json:"kind,omitempty" yaml:"kind,omitempty"`
 
+	LaunchConfig LaunchConfig `json:"launchConfig,omitempty" yaml:"launch_config,omitempty"`
+
 	Name string `json:"name,omitempty" yaml:"name,omitempty"`
 
 	RemoveTime string `json:"removeTime,omitempty" yaml:"remove_time,omitempty"`
@@ -32,6 +40,10 @@ type ServiceEvent struct {
 	Removed string `json:"removed,omitempty" yaml:"removed,omitempty"`
 
 	ReportedHealth string `json:"reportedHealth,omitempty" yaml:"reported_health,omitempty"`
+
+	SecondaryLaunchConfigs []interface{} `json:"secondaryLaunchConfigs,omitempty" yaml:"secondary_launch_configs,omitempty"`
+
+	Selector string `json:"selector,omitempty" yaml:"selector,omitempty"`
 
 	State string `json:"state,omitempty" yaml:"state,omitempty"`
 

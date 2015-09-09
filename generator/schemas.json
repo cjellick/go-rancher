@@ -185,10 +185,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -250,12 +250,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -489,11 +489,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -547,11 +547,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -605,11 +605,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -753,12 +753,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT"
-      ],
-      "collectionMethods": [
-        "POST"
       ]
     },
     {
@@ -906,12 +906,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT"
-      ],
-      "collectionMethods": [
-        "POST"
       ]
     },
     {
@@ -1058,12 +1058,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT"
-      ],
-      "collectionMethods": [
-        "POST"
       ]
     },
     {
@@ -1099,11 +1099,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1139,11 +1139,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1197,11 +1197,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1255,10 +1255,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [],
       "resourceMethods": [
         "GET"
-      ],
-      "collectionMethods": []
+      ]
     },
     {
       "id": "instanceHealthCheck",
@@ -1401,11 +1401,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1459,11 +1459,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1571,11 +1571,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1629,11 +1629,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1669,11 +1669,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1709,11 +1709,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1749,11 +1749,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1789,11 +1789,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1829,11 +1829,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1887,11 +1887,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -1927,11 +1927,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -2423,14 +2423,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -3111,14 +3111,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -3154,11 +3154,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -3714,7 +3714,8 @@
           "maxLength": 128,
           "options": [
             "NetworkAgent",
-            "LoadBalancerAgent"
+            "LoadBalancerAgent",
+            "KubernetesAgent"
           ],
           "default": null
         },
@@ -4927,14 +4928,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -5006,10 +5007,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [],
       "resourceMethods": [
         "GET"
-      ],
-      "collectionMethods": []
+      ]
     },
     {
       "id": "instanceConsoleInput",
@@ -5025,10 +5026,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [],
       "resourceMethods": [
         "GET"
-      ],
-      "collectionMethods": []
+      ]
     },
     {
       "id": "instanceStop",
@@ -5099,11 +5100,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -5139,11 +5140,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -5624,10 +5625,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -6124,14 +6125,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -6631,14 +6632,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -7167,14 +7168,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -7210,11 +7211,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -7250,11 +7251,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -7290,11 +7291,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -7330,11 +7331,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -7370,11 +7371,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -7410,11 +7411,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -7562,7 +7563,7 @@
           "update": false,
           "nullable": false,
           "unique": false,
-          "required": true,
+          "required": false,
           "readOnCreateOnly": false,
           "min": null,
           "max": null,
@@ -7642,6 +7643,42 @@
           "maxLength": null,
           "options": null,
           "default": 1
+        },
+        "selectorContainer": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 4096,
+          "options": null,
+          "default": null
+        },
+        "selectorLink": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 4096,
+          "options": null,
+          "default": null
         },
         "state": {
           "type": "enum",
@@ -7893,6 +7930,17 @@
             "notnull"
           ]
         },
+        "externalId": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
         "id": {
           "modifiers": [
             "eq",
@@ -7947,6 +7995,28 @@
             "lte",
             "gt",
             "gte",
+            "null",
+            "notnull"
+          ]
+        },
+        "selectorContainer": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
+        "selectorLink": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
             "null",
             "notnull"
           ]
@@ -8038,14 +8108,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -8184,6 +8254,24 @@
           "options": null,
           "default": null
         },
+        "launchConfig": {
+          "type": "launchConfig",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": false,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": null,
+          "options": null,
+          "default": null
+        },
         "name": {
           "type": "string",
           "validChars": "a-zA-Z0-9-",
@@ -8235,6 +8323,42 @@
           "max": null,
           "minLength": null,
           "maxLength": 255,
+          "options": null,
+          "default": null
+        },
+        "selectorContainer": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 4096,
+          "options": null,
+          "default": null
+        },
+        "selectorLink": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 4096,
           "options": null,
           "default": null
         },
@@ -8470,6 +8594,17 @@
             "notnull"
           ]
         },
+        "externalId": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
         "id": {
           "modifiers": [
             "eq",
@@ -8524,6 +8659,28 @@
             "lte",
             "gt",
             "gte",
+            "null",
+            "notnull"
+          ]
+        },
+        "selectorContainer": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
+        "selectorLink": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
             "null",
             "notnull"
           ]
@@ -8615,14 +8772,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -8761,6 +8918,24 @@
           "options": null,
           "default": null
         },
+        "launchConfig": {
+          "type": "launchConfig",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": false,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": null,
+          "options": null,
+          "default": null
+        },
         "name": {
           "type": "string",
           "validChars": "a-zA-Z0-9-",
@@ -8812,6 +8987,42 @@
           "max": null,
           "minLength": null,
           "maxLength": 255,
+          "options": null,
+          "default": null
+        },
+        "selectorContainer": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 4096,
+          "options": null,
+          "default": null
+        },
+        "selectorLink": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 4096,
           "options": null,
           "default": null
         },
@@ -8993,6 +9204,17 @@
             "notnull"
           ]
         },
+        "externalId": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
         "id": {
           "modifiers": [
             "eq",
@@ -9047,6 +9269,28 @@
             "lte",
             "gt",
             "gte",
+            "null",
+            "notnull"
+          ]
+        },
+        "selectorContainer": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
+        "selectorLink": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
             "null",
             "notnull"
           ]
@@ -9138,14 +9382,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -10308,7 +10552,8 @@
           "maxLength": 128,
           "options": [
             "NetworkAgent",
-            "LoadBalancerAgent"
+            "LoadBalancerAgent",
+            "KubernetesAgent"
           ],
           "default": null
         },
@@ -10931,11 +11176,11 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -12152,7 +12397,8 @@
           "maxLength": 128,
           "options": [
             "NetworkAgent",
-            "LoadBalancerAgent"
+            "LoadBalancerAgent",
+            "KubernetesAgent"
           ],
           "default": null
         },
@@ -12739,11 +12985,11 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -12779,10 +13025,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [],
       "resourceMethods": [
         "GET"
-      ],
-      "collectionMethods": []
+      ]
     },
     {
       "id": "setLoadBalancerServiceLinksInput",
@@ -12817,10 +13063,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [],
       "resourceMethods": [
         "GET"
-      ],
-      "collectionMethods": []
+      ]
     },
     {
       "id": "loadBalancerServiceLink",
@@ -12873,11 +13119,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -13368,14 +13614,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -13885,10 +14131,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -14557,14 +14803,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -14672,10 +14918,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -14990,12 +15236,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET"
+      ],
       "resourceMethods": [
         "GET",
         "PUT"
-      ],
-      "collectionMethods": [
-        "GET"
       ]
     },
     {
@@ -15440,10 +15686,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -15936,12 +16182,12 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -16282,12 +16528,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET"
+      ],
       "resourceMethods": [
         "GET",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET"
       ]
     },
     {
@@ -16422,12 +16668,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET"
+      ],
       "resourceMethods": [
         "GET",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET"
       ]
     },
     {
@@ -16888,14 +17134,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -17383,13 +17629,13 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET",
-        "PUT"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET",
+        "PUT"
       ]
     },
     {
@@ -17874,10 +18120,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -18282,10 +18528,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -18733,14 +18979,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -19377,13 +19623,13 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET"
       ]
     },
     {
@@ -19899,10 +20145,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -20608,10 +20854,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -21150,12 +21396,12 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET"
+      ],
       "resourceMethods": [
         "GET",
         "PUT"
-      ],
-      "collectionMethods": [
-        "GET"
       ]
     },
     {
@@ -21700,10 +21946,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -22176,10 +22422,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -22770,14 +23016,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -23279,14 +23525,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -23741,10 +23987,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -24130,10 +24376,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -24744,14 +24990,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -25258,10 +25504,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -25803,10 +26049,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -26256,10 +26502,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -26698,10 +26944,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -27301,12 +27547,12 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET"
+      ],
       "resourceMethods": [
         "GET",
         "PUT"
-      ],
-      "collectionMethods": [
-        "GET"
       ]
     },
     {
@@ -27431,10 +27677,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -27827,10 +28073,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -28366,10 +28612,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -28581,6 +28827,42 @@
           "options": null,
           "default": null
         },
+        "selectorContainer": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 4096,
+          "options": null,
+          "default": null
+        },
+        "selectorLink": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 4096,
+          "options": null,
+          "default": null
+        },
         "state": {
           "type": "enum",
           "validChars": null,
@@ -28733,7 +29015,7 @@
           "update": false,
           "nullable": false,
           "unique": false,
-          "required": true,
+          "required": false,
           "readOnCreateOnly": false,
           "min": null,
           "max": null,
@@ -28831,6 +29113,17 @@
             "notnull"
           ]
         },
+        "externalId": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
         "id": {
           "modifiers": [
             "eq",
@@ -28885,6 +29178,28 @@
             "lte",
             "gt",
             "gte",
+            "null",
+            "notnull"
+          ]
+        },
+        "selectorContainer": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
+        "selectorLink": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
             "null",
             "notnull"
           ]
@@ -28976,14 +29291,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -29462,10 +29777,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -29551,12 +29866,48 @@
           "options": null,
           "default": null
         },
+        "externalId": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 255,
+          "options": null,
+          "default": null
+        },
         "externalTimestamp": {
           "type": "int",
           "validChars": null,
           "invalidChars": null,
           "transform": null,
           "create": false,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 255,
+          "options": null,
+          "default": null
+        },
+        "externalType": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
           "update": false,
           "nullable": true,
           "unique": false,
@@ -29830,6 +30181,78 @@
           "maxLength": null,
           "options": null,
           "default": null
+        },
+        "eventJson": {
+          "type": "json",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": null,
+          "options": null,
+          "default": null
+        },
+        "launchConfig": {
+          "type": "launchConfig",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": false,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": null,
+          "options": null,
+          "default": null
+        },
+        "secondaryLaunchConfigs": {
+          "type": "array[launchConfig]",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": false,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": null,
+          "options": null,
+          "default": null
+        },
+        "selector": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": false,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": null,
+          "options": null,
+          "default": null
         }
       },
       "collectionFilters": {
@@ -29864,6 +30287,17 @@
             "notnull"
           ]
         },
+        "externalId": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
         "externalTimestamp": {
           "modifiers": [
             "eq",
@@ -29872,6 +30306,17 @@
             "lte",
             "gt",
             "gte",
+            "null",
+            "notnull"
+          ]
+        },
+        "externalType": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
             "null",
             "notnull"
           ]
@@ -30017,10 +30462,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -30168,6 +30613,24 @@
           "create": false,
           "update": false,
           "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 255,
+          "options": null,
+          "default": null
+        },
+        "managed": {
+          "type": "boolean",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": false,
+          "update": false,
+          "nullable": false,
           "unique": false,
           "required": false,
           "readOnCreateOnly": false,
@@ -30447,6 +30910,14 @@
             "notnull"
           ]
         },
+        "managed": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "null",
+            "notnull"
+          ]
+        },
         "name": {
           "modifiers": [
             "eq",
@@ -30527,10 +30998,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -30639,14 +31110,14 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -31099,12 +31570,12 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -31586,10 +32057,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -31676,10 +32147,10 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -31905,10 +32376,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -32535,12 +33006,12 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET"
+      ],
       "resourceMethods": [
         "GET",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET"
       ]
     },
     {
@@ -32613,10 +33084,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -32653,10 +33124,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [],
       "resourceMethods": [
         "GET"
-      ],
-      "collectionMethods": []
+      ]
     },
     {
       "id": "containerExec",
@@ -32746,12 +33217,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -32805,11 +33276,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -32864,10 +33335,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -32995,12 +33466,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -33126,12 +33597,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": []
+      ]
     },
     {
       "id": "extensionImplementation",
@@ -33202,10 +33673,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [],
       "resourceMethods": [
         "GET"
-      ],
-      "collectionMethods": []
+      ]
     },
     {
       "id": "extensionPoint",
@@ -33313,10 +33784,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -33480,10 +33951,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -33539,10 +34010,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -33560,10 +34031,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [],
       "resourceMethods": [
         "GET"
-      ],
-      "collectionMethods": []
+      ]
     },
     {
       "id": "githubconfig",
@@ -33728,13 +34199,13 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET",
-        "PUT"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET",
+        "PUT"
       ]
     },
     {
@@ -33944,10 +34415,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -34312,13 +34783,13 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET",
-        "PUT"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET",
+        "PUT"
       ]
     },
     {
@@ -34427,12 +34898,12 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -34487,10 +34958,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -34833,11 +35304,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -35053,11 +35524,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -35219,11 +35690,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -35385,11 +35856,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -35785,11 +36256,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -35915,11 +36386,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -36099,11 +36570,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -36391,11 +36862,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -36539,11 +37010,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -36813,11 +37284,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -37051,11 +37522,11 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -37799,14 +38270,14 @@
       },
       "collectionActions": {},
       "collectionFields": {},
+      "collectionMethods": [
+        "GET",
+        "POST"
+      ],
       "resourceMethods": [
         "GET",
         "PUT",
         "DELETE"
-      ],
-      "collectionMethods": [
-        "GET",
-        "POST"
       ]
     },
     {
@@ -37879,10 +38350,10 @@
       "resourceActions": {},
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
+      "collectionMethods": [
         "GET"
       ],
-      "collectionMethods": [
+      "resourceMethods": [
         "GET"
       ]
     },
@@ -38386,12 +38857,12 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     },
     {
@@ -38919,12 +39390,12 @@
       },
       "collectionActions": {},
       "collectionFields": {},
-      "resourceMethods": [
-        "GET"
-      ],
       "collectionMethods": [
         "GET",
         "POST"
+      ],
+      "resourceMethods": [
+        "GET"
       ]
     }
   ],
