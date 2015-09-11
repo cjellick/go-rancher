@@ -35,6 +35,8 @@ type ServiceEvent struct {
 
 	Name string `json:"name,omitempty" yaml:"name,omitempty"`
 
+	Namespace interface{} `json:"namespace,omitempty" yaml:"namespace,omitempty"`
+
 	RemoveTime string `json:"removeTime,omitempty" yaml:"remove_time,omitempty"`
 
 	Removed string `json:"removed,omitempty" yaml:"removed,omitempty"`
