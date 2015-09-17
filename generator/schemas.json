@@ -22,7 +22,7 @@
           "validChars": null,
           "invalidChars": null,
           "transform": null,
-          "create": false,
+          "create": true,
           "update": false,
           "nullable": false,
           "unique": false,
@@ -40,7 +40,7 @@
           "validChars": null,
           "invalidChars": null,
           "transform": null,
-          "create": false,
+          "create": true,
           "update": false,
           "nullable": false,
           "unique": false,
@@ -58,7 +58,7 @@
           "validChars": null,
           "invalidChars": null,
           "transform": null,
-          "create": false,
+          "create": true,
           "update": false,
           "nullable": false,
           "unique": false,
@@ -76,7 +76,7 @@
           "validChars": null,
           "invalidChars": null,
           "transform": null,
-          "create": false,
+          "create": true,
           "update": false,
           "nullable": false,
           "unique": false,
@@ -94,7 +94,7 @@
           "validChars": null,
           "invalidChars": null,
           "transform": null,
-          "create": false,
+          "create": true,
           "update": false,
           "nullable": false,
           "unique": false,
@@ -112,7 +112,7 @@
           "validChars": null,
           "invalidChars": null,
           "transform": null,
-          "create": false,
+          "create": true,
           "update": false,
           "nullable": false,
           "unique": false,
@@ -130,7 +130,7 @@
           "validChars": null,
           "invalidChars": null,
           "transform": null,
-          "create": false,
+          "create": true,
           "update": false,
           "nullable": false,
           "unique": false,
@@ -148,7 +148,7 @@
           "validChars": null,
           "invalidChars": null,
           "transform": null,
-          "create": false,
+          "create": true,
           "update": false,
           "nullable": false,
           "unique": false,
@@ -166,7 +166,7 @@
           "validChars": null,
           "invalidChars": null,
           "transform": null,
-          "create": false,
+          "create": true,
           "update": false,
           "nullable": false,
           "unique": false,
@@ -3714,8 +3714,7 @@
           "maxLength": 128,
           "options": [
             "NetworkAgent",
-            "LoadBalancerAgent",
-            "KubernetesAgent"
+            "LoadBalancerAgent"
           ],
           "default": null
         },
@@ -10552,8 +10551,7 @@
           "maxLength": 128,
           "options": [
             "NetworkAgent",
-            "LoadBalancerAgent",
-            "KubernetesAgent"
+            "LoadBalancerAgent"
           ],
           "default": null
         },
@@ -12397,8 +12395,7 @@
           "maxLength": 128,
           "options": [
             "NetworkAgent",
-            "LoadBalancerAgent",
-            "KubernetesAgent"
+            "LoadBalancerAgent"
           ],
           "default": null
         },
@@ -17010,6 +17007,17 @@
           ]
         },
         "description": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
+        "externalId": {
           "modifiers": [
             "eq",
             "ne",
@@ -29059,6 +29067,24 @@
           "maxLength": null,
           "options": null,
           "default": null
+        },
+        "serviceSchemas": {
+          "type": "map[schema]",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": null,
+          "options": null,
+          "default": null
         }
       },
       "collectionFilters": {
@@ -29866,6 +29892,24 @@
           "options": null,
           "default": null
         },
+        "eventType": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 255,
+          "options": null,
+          "default": null
+        },
         "externalId": {
           "type": "string",
           "validChars": null,
@@ -29890,24 +29934,6 @@
           "invalidChars": null,
           "transform": null,
           "create": false,
-          "update": false,
-          "nullable": true,
-          "unique": false,
-          "required": false,
-          "readOnCreateOnly": false,
-          "min": null,
-          "max": null,
-          "minLength": null,
-          "maxLength": 255,
-          "options": null,
-          "default": null
-        },
-        "externalType": {
-          "type": "string",
-          "validChars": null,
-          "invalidChars": null,
-          "transform": null,
-          "create": true,
           "update": false,
           "nullable": true,
           "unique": false,
@@ -30070,6 +30096,24 @@
           "invalidChars": null,
           "transform": null,
           "create": false,
+          "update": false,
+          "nullable": true,
+          "unique": false,
+          "required": false,
+          "readOnCreateOnly": false,
+          "min": null,
+          "max": null,
+          "minLength": null,
+          "maxLength": 255,
+          "options": null,
+          "default": null
+        },
+        "resourceType": {
+          "type": "string",
+          "validChars": null,
+          "invalidChars": null,
+          "transform": null,
+          "create": true,
           "update": false,
           "nullable": true,
           "unique": false,
@@ -30305,6 +30349,17 @@
             "notnull"
           ]
         },
+        "eventType": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
         "externalId": {
           "modifiers": [
             "eq",
@@ -30324,17 +30379,6 @@
             "lte",
             "gt",
             "gte",
-            "null",
-            "notnull"
-          ]
-        },
-        "externalType": {
-          "modifiers": [
-            "eq",
-            "ne",
-            "prefix",
-            "like",
-            "notlike",
             "null",
             "notnull"
           ]
@@ -30433,6 +30477,17 @@
           ]
         },
         "reportedHealth": {
+          "modifiers": [
+            "eq",
+            "ne",
+            "prefix",
+            "like",
+            "notlike",
+            "null",
+            "notnull"
+          ]
+        },
+        "resourceType": {
           "modifiers": [
             "eq",
             "ne",
