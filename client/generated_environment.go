@@ -17,6 +17,8 @@ type Environment struct {
 
 	DockerCompose string `json:"dockerCompose,omitempty" yaml:"docker_compose,omitempty"`
 
+	ExternalId string `json:"externalId,omitempty" yaml:"external_id,omitempty"`
+
 	Kind string `json:"kind,omitempty" yaml:"kind,omitempty"`
 
 	Name string `json:"name,omitempty" yaml:"name,omitempty"`

@@ -19,6 +19,8 @@ type Service struct {
 
 	EnvironmentId string `json:"environmentId,omitempty" yaml:"environment_id,omitempty"`
 
+	ExternalId string `json:"externalId,omitempty" yaml:"external_id,omitempty"`
+
 	Kind string `json:"kind,omitempty" yaml:"kind,omitempty"`
 
 	LaunchConfig LaunchConfig `json:"launchConfig,omitempty" yaml:"launch_config,omitempty"`

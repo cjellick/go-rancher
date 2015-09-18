@@ -9,13 +9,15 @@ type ServiceEvent struct {
 
 	AccountId string `json:"accountId,omitempty" yaml:"account_id,omitempty"`
 
+	CattleResourceFields interface{} `json:"cattleResourceFields,omitempty" yaml:"cattle_resource_fields,omitempty"`
+
 	Created string `json:"created,omitempty" yaml:"created,omitempty"`
 
 	Data map[string]interface{} `json:"data,omitempty" yaml:"data,omitempty"`
 
 	Description string `json:"description,omitempty" yaml:"description,omitempty"`
 
-	EventJson interface{} `json:"eventJson,omitempty" yaml:"event_json,omitempty"`
+	Environment interface{} `json:"environment,omitempty" yaml:"environment,omitempty"`
 
 	EventType string `json:"eventType,omitempty" yaml:"event_type,omitempty"`
 
@@ -31,11 +33,7 @@ type ServiceEvent struct {
 
 	Kind string `json:"kind,omitempty" yaml:"kind,omitempty"`
 
-	LaunchConfig LaunchConfig `json:"launchConfig,omitempty" yaml:"launch_config,omitempty"`
-
 	Name string `json:"name,omitempty" yaml:"name,omitempty"`
-
-	Namespace interface{} `json:"namespace,omitempty" yaml:"namespace,omitempty"`
 
 	RemoveTime string `json:"removeTime,omitempty" yaml:"remove_time,omitempty"`
 
@@ -44,8 +42,6 @@ type ServiceEvent struct {
 	ReportedHealth string `json:"reportedHealth,omitempty" yaml:"reported_health,omitempty"`
 
 	ResourceType string `json:"resourceType,omitempty" yaml:"resource_type,omitempty"`
-
-	SecondaryLaunchConfigs []interface{} `json:"secondaryLaunchConfigs,omitempty" yaml:"secondary_launch_configs,omitempty"`
 
 	Selector string `json:"selector,omitempty" yaml:"selector,omitempty"`
 
