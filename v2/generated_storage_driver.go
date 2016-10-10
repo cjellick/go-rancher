@@ -11,6 +11,8 @@ type StorageDriver struct {
 
 	BlockDevicePath string `json:"blockDevicePath,omitempty" yaml:"block_device_path,omitempty"`
 
+	Capabilities []string `json:"capabilities,omitempty" yaml:"capabilities,omitempty"`
+
 	Created string `json:"created,omitempty" yaml:"created,omitempty"`
 
 	Data map[string]interface{} `json:"data,omitempty" yaml:"data,omitempty"`
