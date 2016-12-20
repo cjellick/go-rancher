@@ -17,6 +17,8 @@ type PullTask struct {
 
 	Image string `json:"image,omitempty" yaml:"image,omitempty"`
 
+	Key string `json:"key,omitempty" yaml:"key,omitempty"`
+
 	Kind string `json:"kind,omitempty" yaml:"kind,omitempty"`
 
 	Labels map[string]interface{} `json:"labels,omitempty" yaml:"labels,omitempty"`
@@ -28,6 +30,8 @@ type PullTask struct {
 	RemoveTime string `json:"removeTime,omitempty" yaml:"remove_time,omitempty"`
 
 	Removed string `json:"removed,omitempty" yaml:"removed,omitempty"`
+
+	ResourceData map[string]interface{} `json:"resourceData,omitempty" yaml:"resource_data,omitempty"`
 
 	State string `json:"state,omitempty" yaml:"state,omitempty"`
 
@@ -58,6 +62,10 @@ type PullTaskOperations interface {
 	Update(existing *PullTask, updates interface{}) (*PullTask, error)
 	ById(id string) (*PullTask, error)
 	Delete(container *PullTask) error
+
+	ActionCreate(*PullTask) (*GenericObject, error)
+
+	ActionRemove(*PullTask) (*GenericObject, error)
 }
 
 func newPullTaskClient(rancherClient *RancherClient) *PullTaskClient {
@@ -108,4 +116,22 @@ func (c *PullTaskClient) ById(id string) (*PullTask, error) {
 
 func (c *PullTaskClient) Delete(container *PullTask) error {
 	return c.rancherClient.doResourceDelete(PULL_TASK_TYPE, &container.Resource)
+}
+
+func (c *PullTaskClient) ActionCreate(resource *PullTask) (*GenericObject, error) {
+
+	resp := &GenericObject{}
+
+	err := c.rancherClient.doAction(PULL_TASK_TYPE, "create", &resource.Resource, nil, resp)
+
+	return resp, err
+}
+
+func (c *PullTaskClient) ActionRemove(resource *PullTask) (*GenericObject, error) {
+
+	resp := &GenericObject{}
+
+	err := c.rancherClient.doAction(PULL_TASK_TYPE, "remove", &resource.Resource, nil, resp)
+
+	return resp, err
 }
